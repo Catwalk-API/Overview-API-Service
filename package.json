@@ -1,0 +1,27 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Project Catwalk back end for product overview service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRRFE3-Earth/Fab-API-Service.git"
+  },
+  "author": "Fabrice Defay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRRFE3-Earth/Fab-API-Service/issues"
+  },
+  "homepage": "https://github.com/HRRFE3-Earth/Fab-API-Service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "wait-port": "^0.2.9"
+  }
+}

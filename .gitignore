@@ -1,0 +1,5 @@
+node_modules
+db/seed/data
+package-lock.json
+.DS_Store
+overview-data
